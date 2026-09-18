@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/pari-28/leetcode-dsa-log/tree/master/0020-valid-parentheses) |
+| [1903-largest-odd-number-in-string](https://github.com/pari-28/leetcode-dsa-log/tree/master/1903-largest-odd-number-in-string) |
 ## Stack
 |  |
 | ------- |
@@ -13,4 +14,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/pari-28/leetcode-dsa-log/tree/master/0020-valid-parentheses) |
+## Math
+|  |
+| ------- |
+| [1903-largest-odd-number-in-string](https://github.com/pari-28/leetcode-dsa-log/tree/master/1903-largest-odd-number-in-string) |
+## Greedy
+|  |
+| ------- |
+| [1903-largest-odd-number-in-string](https://github.com/pari-28/leetcode-dsa-log/tree/master/1903-largest-odd-number-in-string) |
 <!---LeetCode Topics End-->
