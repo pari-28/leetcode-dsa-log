@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/pari-28/leetcode-dsa-log/tree/master/0020-valid-parentheses) |
 | [0205-isomorphic-strings](https://github.com/pari-28/leetcode-dsa-log/tree/master/0205-isomorphic-strings) |
+| [0451-sort-characters-by-frequency](https://github.com/pari-28/leetcode-dsa-log/tree/master/0451-sort-characters-by-frequency) |
 | [0796-rotate-string](https://github.com/pari-28/leetcode-dsa-log/tree/master/0796-rotate-string) |
 | [1903-largest-odd-number-in-string](https://github.com/pari-28/leetcode-dsa-log/tree/master/1903-largest-odd-number-in-string) |
 ## Stack
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0205-isomorphic-strings](https://github.com/pari-28/leetcode-dsa-log/tree/master/0205-isomorphic-strings) |
+| [0451-sort-characters-by-frequency](https://github.com/pari-28/leetcode-dsa-log/tree/master/0451-sort-characters-by-frequency) |
 ## Array
 |  |
 | ------- |
@@ -44,4 +46,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0796-rotate-string](https://github.com/pari-28/leetcode-dsa-log/tree/master/0796-rotate-string) |
+## Sorting
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/pari-28/leetcode-dsa-log/tree/master/0451-sort-characters-by-frequency) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/pari-28/leetcode-dsa-log/tree/master/0451-sort-characters-by-frequency) |
+## Bucket Sort
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/pari-28/leetcode-dsa-log/tree/master/0451-sort-characters-by-frequency) |
+## Counting
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/pari-28/leetcode-dsa-log/tree/master/0451-sort-characters-by-frequency) |
 <!---LeetCode Topics End-->
