@@ -5,20 +5,6 @@ public:
             return false;
         }
 
-        if (s == goal) {
-            return true;
-        }
-
-        for (int i=0; i<s.length(); i++) {
-            char temp = s[0];
-            for (int j=0; j<s.length()-1; j++) {
-                s[j] = s[j+1]; 
-            }
-            s[s.length()-1] = temp;
-            if (s == goal) {
-                return true;
-            }
-        }
-        return false;
+        return (s + s).find(goal) != string::npos;
     }
 };
