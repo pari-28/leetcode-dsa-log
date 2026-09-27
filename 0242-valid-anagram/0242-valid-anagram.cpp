@@ -4,18 +4,17 @@ public:
         if (s.length() != t.length()) {
             return false;
         }
-
-        int count[26] = {0};
-
+        int freq[26] = {0};
         for (int i=0; i<s.length(); i++) {
-            count[s[i] - 'a']++;
+            freq[s[i] - 'a']++;
         }
 
         for (int i=0; i<t.length(); i++) {
-            if (count[t[i] - 'a'] == 0) {
+            
+            if (freq[t[i] - 'a'] == 0) {
                 return false;
             }
-            count[t[i] - 'a']--;
+            freq[t[i] - 'a']--;
         }
 
         return true;
