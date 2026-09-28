@@ -5,25 +5,13 @@ public:
         int end = s.length() - 1;
 
         while (st < end) {
-           
-
-            while (st < end && (!(s[st] >= 'A' && s[st] <= 'Z' || s[st] >= 'a' && s[st] <= 'z' || s[st] >= '0' && s[st] <= '9'))) {
+            while (st < end && !isalnum(s[st])) {
                 st++;
             }
-            
-            
-            while (st < end && (!(s[end] >= 'A' && s[end] <= 'Z' || s[end] >= 'a' && s[end] <= 'z' || s[end] >= '0' && s[end] <= '9'))) {
-                    end--;
+            while (st < end && !isalnum(s[end])) {
+                end--;
             }
-
-             if (s[st] >= 'A' && s[st] <= 'Z') {
-                s[st] = s[st] - 'A' + 'a';
-            }
-            if (s[end] >= 'A' && s[end] <= 'Z') {
-                s[end] = s[end] - 'A' + 'a';
-            }
-            
-            if (s[st] != s[end]) {
+            if (tolower(s[st]) != tolower(s[end])) {
                 return false;
             }
             st++;
