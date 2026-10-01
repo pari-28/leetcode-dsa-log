@@ -16,7 +16,7 @@ public:
                 missing = i;
             }
         }
-        vector<int> arr = {duplicate, missing};
-        return arr;
+        
+        return {duplicate, missing};
     }
 };
