@@ -35,11 +35,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/pari-28/leetcode-dsa-log/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/pari-28/leetcode-dsa-log/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/pari-28/leetcode-dsa-log/tree/master/0451-sort-characters-by-frequency) |
+| [0645-set-mismatch](https://github.com/pari-28/leetcode-dsa-log/tree/master/0645-set-mismatch) |
 ## Array
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/pari-28/leetcode-dsa-log/tree/master/0014-longest-common-prefix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/pari-28/leetcode-dsa-log/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0645-set-mismatch](https://github.com/pari-28/leetcode-dsa-log/tree/master/0645-set-mismatch) |
 ## Two Pointers
 |  |
 | ------- |
@@ -59,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0242-valid-anagram](https://github.com/pari-28/leetcode-dsa-log/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/pari-28/leetcode-dsa-log/tree/master/0451-sort-characters-by-frequency) |
+| [0645-set-mismatch](https://github.com/pari-28/leetcode-dsa-log/tree/master/0645-set-mismatch) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -75,4 +78,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/pari-28/leetcode-dsa-log/tree/master/0014-longest-common-prefix) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0645-set-mismatch](https://github.com/pari-28/leetcode-dsa-log/tree/master/0645-set-mismatch) |
 <!---LeetCode Topics End-->
