@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> findErrorNums(vector<int>& nums) {
-        sort (nums.begin(), nums.end());
+         sort (nums.begin(), nums.end());
         int duplicate = -1;
         int missing = -1;
         
