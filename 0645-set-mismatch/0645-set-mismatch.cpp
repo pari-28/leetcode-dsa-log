@@ -1,22 +1,26 @@
 class Solution {
 public:
     vector<int> findErrorNums(vector<int>& nums) {
-         sort (nums.begin(), nums.end());
+        int n = nums.size();
+
+        vector <int> freq (n + 1, 0);
+
+        for (int x : nums) {
+            freq[x]++;
+        }
+
         int duplicate = -1;
         int missing = -1;
-        
-        for (int i=1; i<nums.size(); i++) {
-            if (nums[i] == nums[i-1]) {
-                duplicate = nums[i];
-                
+
+        for (int i=1; i<=n; i++) {
+            if (freq[i] == 2) {
+                duplicate = i;
             }
-        }
-        for (int i=1; i<= nums.size(); i++) {
-            if (find(nums.begin(), nums.end(), i) == nums.end()) {
+            if (freq[i] == 0) {
                 missing = i;
             }
         }
-        
+
         return {duplicate, missing};
     }
 };
